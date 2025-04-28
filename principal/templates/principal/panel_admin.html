@@ -1,0 +1,31 @@
+{% extends "base.html" %}
+{% load static %}
+{% block contenido %}
+     <!-- Page Title -->
+    <div class="page-title dark-background">
+      <div class="container d-lg-flex justify-content-between align-items-center">
+        <h1 class="mb-2 mb-lg-0">Panel de Administración</h1>
+        <nav class="breadcrumbs">
+          <ol>
+            <li><a href="{%url "inicio"%}">Home</a></li>
+            <li class="current">Panel de Administración</li>
+          </ol>
+        </nav>
+      </div>
+    </div><!-- End Page Title -->
+
+    <!-- Starter Section Section -->
+    <section id="starter-section" class="starter-section section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Starter Section</h2>
+      </div><!-- End Section Title -->
+
+      <div class="container" data-aos="fade-up">
+        <p>En esta página definiremos el código para editar nuestro portfolio</p>
+      </div>
+
+    </section><!-- /Starter Section Section -->
+
+ {% endblock contenido %}
